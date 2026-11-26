@@ -1,6 +1,6 @@
 {
   "_使い方": "空室情報はこのファイルだけで更新できます。updated に日付、units に住戸を追加・削除してください。満室の場合は units を [] にします。",
-  "updated": "2026/11/16",
+  "updated": "2026/11/26",
   "buildings": [
     {
       "slug": "bianca",
@@ -45,7 +45,7 @@
       "slug": "gloria",
       "name": "ビラ・グロリア",
       "en": "VILLA GLORIA",
-      "address": "東京都渋谷区神宮前２-31-7",
+      "address": "東京都渋谷区神宮前2-31-7",
       "tagline": [
         "人気の原宿・神宮前エリア"
       ],

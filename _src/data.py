@@ -39,7 +39,7 @@ B = [
       thumb="2b9bf3705ee94e8eab4554c07f77fe37~mv2.jpg",
       imgs="06c3f3152e044547be83c5a2483cc7fb.jpeg 2ffe497123114030a5cd027b7429b829.png 75ef506618484fe1aa75d02cac3268a6.png 7635133af5e94995a41c744a51c70588.png 2a2a2e2f207640aa826ff49f9655484f.png 103e4ec4ad31409f8ba2edfe84276a8c.png da971bb64ed34739b008d231ea9c38fb.png d2ce693e11a343eaa7637ae0139e62bf.png c6c9d144ddda4574adaac90ea3158a87.png"),
  dict(slug="gloria", en="GLORIA", jp="ビラ・グロリア", meaning="栄光の館", built="1972年09月", year=1972,
-      district="渋谷区神宮前", address="東京都渋谷区神宮前２-31-7", locality="渋谷区", street="神宮前2-31-7",
+      district="渋谷区神宮前", address="東京都渋谷区神宮前2-31-7", locality="渋谷区", street="神宮前2-31-7",
       architect="大谷研究室", builder="（株）鴻池組",
       overview="地下1階、地上10階、総戸数30戸、駐車場", units=30,
       intro=["1972年、原宿神宮前の賑やかな通りに面して、 ビラ・グロリアは誕生しました。",
@@ -58,7 +58,7 @@ B = [
                  plan="25380970d0894ceaa14942cd38d55c98.png",
                  photos="2bf8bd70e3004abf949f049688aa6b2f.jpeg e02fd96c881d4f26a8777b7f6362ba29.jpeg e952aa88c8c04277bcd9eec864fe2715.jpeg")),
  dict(slug="nuova", en="NUOVA", jp="ビラ・ノーバ", meaning="高尚な館", built="1978年10月", year=1978,
-      district="世田谷区上馬", address="東京都世田谷区上馬５-30-4", locality="世田谷区", street="上馬5-30-4",
+      district="世田谷区上馬", address="東京都世田谷区上馬5-30-4", locality="世田谷区", street="上馬5-30-4",
       architect="坂倉建築研究所", builder="（株）浅沼組",
       overview="地上3階、総戸数13戸", units=13,
       intro=["1978年、世田谷区上馬の閑静な住宅街に、", "ビラ・ノーバは誕生しました。",
@@ -67,7 +67,7 @@ B = [
       imgs="af68299bc7e941a48b969e05558eb2b3.png 1aa0e4dbd72e47d7be650838b9ce9b9c.jpg cc3f3e55c5f14d239e39381b435d464d.png 0d9850b647be4201852d13fc82b43484.png 1e566c1eae8c4089ba412b5f8cb24c66.png a811b840bc4f4e5da13c2e00310980ad.png 40e6348f8e9a4a0891230eaaa3c46218.png 2fc62ee339474123ab9e2d8fc1f6fe58.png",
       credit=("画像：「 株式会社フリーダムコーポレーション 」", "https://www.vintage-mansion.tokyo/detail/29228/")),
  dict(slug="sapienza", en="SAPIENZA", jp="ビラ・サピエンザ", meaning="叡智の館", built="1981年03月", year=1981,
-      district="世田谷区上馬", address="東京都世田谷区上馬５-30-2", locality="世田谷区", street="上馬5-30-2",
+      district="世田谷区上馬", address="東京都世田谷区上馬5-30-2", locality="世田谷区", street="上馬5-30-2",
       architect="坂倉建築研究所", builder="（株）佐藤秀工務店",
       overview="地上3階、総戸数11戸", units=11,
       intro=["1981年、世田谷区上馬の閑静な住宅街に、", "ビラ・サピエンザは誕生しました。",
@@ -76,7 +76,7 @@ B = [
       thumb="28464337d8cf4131a97fc891f0270a9f~mv2.png",
       imgs="c52f46f3e2ee48c792a6f9b113526e22.jpeg 691a4016276144f5808ee8ea38495934.png a77d277ec08d4cdab3540597a592699e.png 28464337d8cf4131a97fc891f0270a9f.png f09754c81550404ca723b0ca0d2b74a1.png d1eda6724df74c3f9e77ea2d47d86c61.png c3bf9c793f67410a9c0c1b49b86e237e.png f0d22469844f47358aa4f8cf7e1199ea.png 6dafe21d642d47b3a7c9765e466652c9.png 9a356a6a58284a00be97cdb6923bfc2e.png 24e10a836e25467eb8bd97a41a2c605f.png"),
  dict(slug="piccolina", en="PICCOLINA", jp="ビラ・ピコリーナ", meaning="可愛い娘の館", built="1988年05月", year=1988,
-      district="渋谷区千駄ヶ谷", address="東京都渋谷区千駄ヶ谷３-17-8", locality="渋谷区", street="千駄ヶ谷3-17-8",
+      district="渋谷区千駄ヶ谷", address="東京都渋谷区千駄ヶ谷3-17-8", locality="渋谷区", street="千駄ヶ谷3-17-8",
       architect="坂倉建築研究所", builder="（株）大林組",
       overview="地下1階、地上4階、総戸数3戸", units=3,
       intro=["1988年、渋谷区千駄ヶ谷の三角形の敷地にビラ・ピコリーナは誕生しました。 丸みを帯びた外観はビラ・シリーズの中で最も小さく、現在のところシリーズ最終となっています。"],
@@ -86,7 +86,7 @@ B = [
 
 # Vacancies (as on the live page, 2026/11/16)
 VACANCIES = {
-  "updated": "2026/11/16",
+  "updated": "2026/11/26",
   "buildings": [
     {"slug": "bianca", "tagline": ["国内外の雑誌に紹介されたビラシリーズの原点"], "units": []},
     {"slug": "moderna", "tagline": ["表参道駅・渋谷駅から2アクセスの好立地", "エントランスロビー", "無料レンタルスペース（月４時間まで）"],

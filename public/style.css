@@ -141,8 +141,8 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
 .u-badge{align-self:flex-start;border:1px solid var(--ink);padding:1px 10px;margin:8px 0 10px;font-size:12.5px;letter-spacing:.06em}
 .u-row{font-size:13.5px;line-height:1.9}
 .u-k{display:inline-block;min-width:6.5em;color:var(--mute);font-size:12px}
-.u-pdf{margin-top:8px;font:400 10px/1 var(--label);letter-spacing:.2em;color:var(--mute)}
-.full{font-size:14px;color:var(--ink2);padding:6px 0 4px;letter-spacing:.06em}
+.u-pdf{margin-top:8px;padding-left:calc(12px * 6.5);font-size:12px;letter-spacing:.06em;color:var(--mute)}
+.full{font-size:14px;color:var(--ink);padding:6px 0 4px;letter-spacing:.06em}
 .map{display:block;width:100%;max-width:760px;height:300px;border:0;margin-top:24px;background:var(--stone);filter:grayscale(.9) contrast(1.02)}
 .map.wide{height:340px;margin-top:32px}
 
