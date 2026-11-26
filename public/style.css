@@ -41,6 +41,7 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
 /* home intro */
 .intro{display:grid;grid-template-columns:5fr 6fr;gap:72px;align-items:start;padding-top:72px;padding-bottom:24px}
 .intro h1{margin:0;font-weight:400;line-height:1.35;margin-top:-.2em}
+.intro-t{padding-top:clamp(48px,9vh,96px)}
 .h1-jp{display:block;font-size:46px;letter-spacing:.08em}
 .h1-sub{display:block;font-size:36px;letter-spacing:.06em;color:#6b6b6b;margin-top:6px}
 .lead{font-size:14.5px;line-height:2.2;color:var(--ink2);max-width:30em}
@@ -183,7 +184,7 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
   .bn-in{justify-content:flex-start;gap:22px;height:38px;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
   .intro{grid-template-columns:1fr;gap:32px;padding-top:36px}
   .intro-img{order:-1;aspect-ratio:4/3;height:auto;min-height:0;width:100%;max-height:none;justify-self:stretch}
-  .intro-t{text-align:center}
+  .intro-t{text-align:center;padding-top:0}
   .h1-jp{font-size:32px}.h1-sub{font-size:24px}
   .lead{font-size:14px}
   .links{margin-top:28px;gap:24px}
