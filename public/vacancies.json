@@ -1,0 +1,64 @@
+{
+  "_使い方": "空室情報はこのファイルだけで更新できます。updated に日付、units に住戸を追加・削除してください。満室の場合は units を [] にします。",
+  "updated": "2026/11/16",
+  "buildings": [
+    {
+      "slug": "bianca",
+      "name": "ビラ・ビアンカ",
+      "en": "VILLA BIANCA",
+      "address": "東京都渋谷区神宮前2-33-12",
+      "tagline": [
+        "国内外の雑誌に紹介されたビラシリーズの原点"
+      ],
+      "units": []
+    },
+    {
+      "slug": "moderna",
+      "name": "ビラ・モデルナ",
+      "en": "VILLA MODERNA",
+      "address": "東京都渋谷区渋谷1-3-18",
+      "tagline": [
+        "表参道駅・渋谷駅から2アクセスの好立地",
+        "エントランスロビー",
+        "無料レンタルスペース（月４時間まで）"
+      ],
+      "units": [
+        {
+          "room": "B403・4号室",
+          "badge": "12月初旬退去予定",
+          "area": "41.72㎡ (12.62坪)",
+          "rent": "308,000円",
+          "flyer": "https://villa-series-assets.pages.dev/img/75d89d6c41fd-s.webp",
+          "pdf": "https://villa-series-assets.pages.dev/files/9d90d4_d3ae7f96f2014669a816ead80fe017c6.pdf"
+        },
+        {
+          "room": "A508号室",
+          "badge": "１月末退去予定",
+          "area": "25.12㎡ (7.62坪)",
+          "rent": "184,800円",
+          "flyer": "https://villa-series-assets.pages.dev/img/51eb24616845-s.webp",
+          "pdf": "https://villa-series-assets.pages.dev/files/9d90d4_72d71a7e6b0f4e03a6749fc5e3dc6cf2.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "gloria",
+      "name": "ビラ・グロリア",
+      "en": "VILLA GLORIA",
+      "address": "東京都渋谷区神宮前２-31-7",
+      "tagline": [
+        "人気の原宿・神宮前エリア"
+      ],
+      "units": [
+        {
+          "room": "503号室",
+          "badge": "入居 1月中旬以降",
+          "area": "81.13㎡ (24.54坪)",
+          "rent": "490,000円",
+          "flyer": "https://villa-series-assets.pages.dev/img/95f0b2f070aa-s.webp",
+          "pdf": "https://villa-series-assets.pages.dev/files/9d90d4_1f99d52544954b4b87ecaffae9fdebae.pdf"
+        }
+      ]
+    }
+  ]
+}
