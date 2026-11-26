@@ -86,7 +86,7 @@ FOOT = f"""</main>
       <a class="ext" href="https://www.kowa-shoji.co.jp" target="_blank" rel="noopener">KOWA-SHOJI.CO.JP <span aria-hidden="true">→</span></a>
     </nav>
   </div>
-  <p class="ft-c">© <span class="yr">2026</span> KOWA SHOJI CO., LTD.</p>
+  <p class="ft-c">© <span class="yr">2026</span> KOWA SHOJI CO., LTD</p>
 </footer>
 <script src="/site.js?v=JSVPLACEHOLDER" defer></script>
 </body>
