@@ -183,6 +183,7 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
   .bn-in{justify-content:flex-start;gap:22px;height:38px;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
   .intro{grid-template-columns:1fr;gap:32px;padding-top:36px}
   .intro-img{order:-1;aspect-ratio:4/3;max-height:none}
+  .intro-t{text-align:center}
   .h1-jp{font-size:32px}.h1-sub{font-size:24px}
   .lead{font-size:14px}
   .links{margin-top:28px;gap:24px}
