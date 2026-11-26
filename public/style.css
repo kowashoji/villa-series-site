@@ -39,8 +39,8 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
 .links a:hover,.more a:hover,.callout a:hover{border-color:var(--ink)}
 
 /* home intro */
-.intro{display:grid;grid-template-columns:5fr 6fr;gap:72px;align-items:center;padding-top:72px;padding-bottom:24px}
-.intro h1{margin:0;font-weight:400;line-height:1.35}
+.intro{display:grid;grid-template-columns:5fr 6fr;gap:72px;align-items:start;padding-top:72px;padding-bottom:24px}
+.intro h1{margin:0;font-weight:400;line-height:1.35;margin-top:-.2em}
 .h1-jp{display:block;font-size:46px;letter-spacing:.08em}
 .h1-sub{display:block;font-size:36px;letter-spacing:.06em;color:#6b6b6b;margin-top:6px}
 .lead{font-size:14.5px;line-height:2.2;color:var(--ink2);max-width:30em}
