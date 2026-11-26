@@ -226,6 +226,6 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
   .map,.map.wide{height:240px}
   .ft{margin-top:80px}
   .ft-in{flex-direction:column;gap:32px;padding-top:40px}
-  .ft-nav{align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:12px 22px}
-  .ft-nav .ext{margin-top:0;flex-basis:100%}
+  .ft-nav{align-items:center;text-align:center;gap:12px}
+  .ft-nav .ext{margin-top:4px}
 }
