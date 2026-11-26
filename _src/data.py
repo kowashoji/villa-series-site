@@ -86,7 +86,7 @@ B = [
 
 # Vacancies (as on the live page, 2026/11/16)
 VACANCIES = {
-  "updated": "2026/11/26",
+  "updated": "2026/11/27",
   "buildings": [
     {"slug": "bianca", "tagline": ["国内外の雑誌に紹介されたビラシリーズの原点"], "units": []},
     {"slug": "moderna", "tagline": ["表参道駅・渋谷駅から2アクセスの好立地", "エントランスロビー", "無料レンタルスペース（月４時間まで）"],
