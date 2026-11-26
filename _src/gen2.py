@@ -4,6 +4,9 @@ import json, os, re, shutil, html
 from data import B, HOME_HERO, VACANCIES
 
 OUT = "/home/claude/vs/site2"
+import hashlib
+VER = lambda f: hashlib.md5(open(f"/home/claude/vs/src2/{f}","rb").read()).hexdigest()[:8]
+CSSV, JSV = VER("style.css"), VER("site.js")
 SITE = "https://www.villa-series.jp"
 E = html.escape
 def key(i): return re.split(r"[~.]", i)[0][:12]
@@ -42,7 +45,7 @@ def head(title, desc, path, og, lds, body):
 <link rel="preconnect" href="https://villa-series-assets.pages.dev" crossorigin>
 <link rel="preload" href="https://villa-series-assets.pages.dev/fonts/roos.woff2" as="font" type="font/woff2" crossorigin>
 {FONTS}
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v={CSSV}">
 {ldt}
 </head>
 <body class="{body}">
@@ -85,7 +88,7 @@ FOOT = f"""</main>
   </div>
   <p class="ft-c">© <span class="yr">2026</span> KOWA SHOJI CO., LTD.</p>
 </footer>
-<script src="/site.js" defer></script>
+<script src="/site.js?v=JSVPLACEHOLDER" defer></script>
 </body>
 </html>
 """
@@ -96,7 +99,7 @@ ORG = {"@type": "Organization", "@id": SITE + "/#org", "name": "興和商事株�
        "address": {"@type": "PostalAddress", "postalCode": "150-0002", "addressRegion": "東京都", "addressLocality": "渋谷区",
                    "streetAddress": "渋谷一丁目3番18号", "addressCountry": "JP"}}
 
-def write(path, h): open(f"{OUT}/{path}.html", "w", encoding="utf-8").write(h)
+def write(path, h): open(f"{OUT}/{path}.html", "w", encoding="utf-8").write(h.replace("JSVPLACEHOLDER", JSV))
 def ym(b): return b["built"][:4], b["built"][5:7]
 
 def unit_html(v, u):
