@@ -106,8 +106,7 @@ def unit_html(v, u):
     return f'''<a class="unit" href="{A}/files/{u["pdf"]}" target="_blank" rel="noopener">
           <img src="{S(u["flyer"])}" alt="{E(BY[v["slug"]]["jp"])} {E(u["room"])} 物件資料" loading="lazy">
           <span class="u-t"><span class="u-room">{E(u["room"])}</span><span class="u-badge">{E(u["badge"])}</span>
-          <span class="u-row"><span class="u-k">専有面積</span>{E(u["area"])}</span><span class="u-row"><span class="u-k">賃料（税込）</span>{E(u["rent"])}</span>
-          <span class="u-pdf">物件資料 PDF <span aria-hidden="true">↗</span></span></span>
+          <span class="u-row"><span class="u-k">専有面積</span>{E(u["area"])}</span><span class="u-row"><span class="u-k">賃料（税込）</span>{E(u["rent"])}</span></span>
         </a>'''
 
 def build():
