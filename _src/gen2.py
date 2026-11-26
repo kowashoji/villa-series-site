@@ -125,7 +125,7 @@ def build():
     rows = []
     for v in VACANCIES["buildings"]:
         for u in v["units"]:
-            rows.append(f'<li><a href="/availability#{v["slug"]}"><span class="vr-b">{E(BY[v["slug"]]["jp"])}</span><span class="vr-r">{E(u["room"])}</span><span class="vr-a">{E(u["area"])}</span><span class="vr-p">{E(u["rent"])}</span><span class="vr-n">{E(u["badge"])}</span><span class="arr" aria-hidden="true">→</span></a></li>')
+            rows.append(f'<li><a href="{A}/files/{u["pdf"]}" target="_blank" rel="noopener" aria-label="{E(BY[v["slug"]]["jp"])} {E(u["room"])} 物件資料（PDF）"><span class="vr-b">{E(BY[v["slug"]]["jp"])}</span><span class="vr-r">{E(u["room"])}</span><span class="vr-a">{E(u["area"])}</span><span class="vr-p">{E(u["rent"])}</span><span class="vr-n">{E(u["badge"])}</span><span class="arr" aria-hidden="true">↗</span></a></li>')
     desc_home = "VILLA SERIES（ビラ・シリーズ）は、興和商事株式会社 不動産事業部が手がける都市型デザイナーズ・マンションブランドです。洗練されたデザインと上質な暮らしを追求し、独創性ある住宅空間を提供しています。"
     home = header() + f'''<section class="intro wrap">
   <div class="intro-t">
