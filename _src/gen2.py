@@ -133,6 +133,7 @@ def build():
     home = header() + f'''<section class="intro wrap">
   <div class="intro-t">
     <h1><span class="h1-jp">ビラ・シリーズ</span><span class="h1-sub">1964年より</span></h1>
+    <p class="intro-lead">独創的なデザイナーズ・マンション　ビラ・シリーズ<br>建築と暮らし、人を結びつける住まいです</p>
   </div>
   <div class="intro-img hero-show" aria-hidden="true">{slides}</div>
 </section>
