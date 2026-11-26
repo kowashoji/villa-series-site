@@ -268,7 +268,7 @@ def build():
       <div class="units">
         {us}
       </div>
-      <iframe class="map" title="{E(b["jp"])} 地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={b["address"]}&amp;z=16&amp;output=embed"></iframe>
+      <iframe class="map" title="{E(b["jp"])} 地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={b.get("map") or b["address"]}&amp;z=16&amp;output=embed"></iframe>
     </div>
   </section>''')
     info = '''      <dl class="specs">
@@ -333,7 +333,7 @@ def build():
 
     # ---------------- data + static ----------------
     vj = {"_使い方": "空室情報はこのファイルだけで更新できます。updated に日付、units に住戸を追加・削除してください。満室の場合は units を [] にします。", "updated": VACANCIES["updated"],
-          "buildings": [{"slug": v["slug"], "name": BY[v["slug"]]["jp"], "en": "VILLA " + BY[v["slug"]]["en"], "address": BY[v["slug"]]["address"], "tagline": v["tagline"],
+          "buildings": [{"slug": v["slug"], "name": BY[v["slug"]]["jp"], "en": "VILLA " + BY[v["slug"]]["en"], "address": BY[v["slug"]]["address"], "map": BY[v["slug"]].get("map") or BY[v["slug"]]["address"], "tagline": v["tagline"],
                          "units": [{"room": u["room"], "badge": u["badge"], "area": u["area"], "rent": u["rent"], "flyer": S(u["flyer"]), "pdf": A + "/files/" + u["pdf"]} for u in v["units"]]}
                         for v in VACANCIES["buildings"]]}
     json.dump(vj, open(f"{OUT}/vacancies.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
