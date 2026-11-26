@@ -39,7 +39,7 @@ B = [
       thumb="2b9bf3705ee94e8eab4554c07f77fe37~mv2.jpg",
       imgs="06c3f3152e044547be83c5a2483cc7fb.jpeg 2ffe497123114030a5cd027b7429b829.png 75ef506618484fe1aa75d02cac3268a6.png 7635133af5e94995a41c744a51c70588.png 2a2a2e2f207640aa826ff49f9655484f.png 103e4ec4ad31409f8ba2edfe84276a8c.png da971bb64ed34739b008d231ea9c38fb.png d2ce693e11a343eaa7637ae0139e62bf.png c6c9d144ddda4574adaac90ea3158a87.png"),
  dict(slug="gloria", en="GLORIA", jp="ビラ・グロリア", meaning="栄光の館", built="1972年09月", year=1972,
-      district="渋谷区神宮前", address="東京都渋谷区神宮前2-31-7", map="35.672966,139.709351", locality="渋谷区", street="神宮前2-31-7",
+      district="渋谷区神宮前", address="東京都渋谷区神宮前2-31-7", locality="渋谷区", street="神宮前2-31-7",
       architect="大谷研究室", builder="（株）鴻池組",
       overview="地下1階、地上10階、総戸数30戸、駐車場", units=30,
       intro=["1972年、原宿神宮前の賑やかな通りに面して、 ビラ・グロリアは誕生しました。",
