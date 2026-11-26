@@ -86,6 +86,7 @@ sup{font-size:.42em;vertical-align:top;position:relative;top:.15em;margin-left:.
 .bh h1{margin:0;font-weight:400;font-size:46px;line-height:1.3;letter-spacing:.1em}
 .bh-en{margin-top:10px;font:400 18px/1.2 var(--display);letter-spacing:.28em}
 .bh-en sup{top:.05em}
+.bh-t h1 sup{font-size:.32em;top:.25em;margin-left:.15em}
 .bh-m{margin-top:12px;font-size:13px;color:var(--ink2);letter-spacing:.06em}
 .bimg{margin-top:48px;margin-bottom:24px}
 .bimg img{width:100%;aspect-ratio:21/9;object-fit:cover;background:var(--stone)}

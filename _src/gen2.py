@@ -205,7 +205,7 @@ def build():
   <header class="bh wrap">
     <p class="bh-k"><span>No.{b["no"]}</span><span class="bh-y">{y}</span></p>
     <div class="bh-t">
-      <h1>{E(b["jp"])}</h1>
+      <h1>{E(b["jp"])}<sup>®</sup></h1>
       <p class="bh-en">VILLA {b["en"]}<sup>®</sup></p>
       <p class="bh-m">{E(b["meaning"])}<span class="dot">・</span>{E(b["district"])}</p>
     </div>
