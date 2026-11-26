@@ -342,6 +342,6 @@ def build():
     urls = ["/"] + [f"/{b['slug']}" for b in B] + ["/availability", "/contact"]
     open(f"{OUT}/sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{SITE}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     open(f"{OUT}/robots.txt", "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-    open(f"{OUT}/_headers", "w").write("/vacancies.json\n  Cache-Control: no-cache\n")
+    open(f"{OUT}/_headers", "w").write("/vacancies.json\n  Cache-Control: no-cache\n/*.html\n  Cache-Control: no-cache\n/\n  Cache-Control: no-cache\n")
     open(f"{OUT}/_redirects", "w").write("/index /  301\n/home /  301\n")
 build()
